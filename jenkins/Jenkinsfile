@@ -24,5 +24,7 @@ pipeline {
         stage('additional') {
             steps {
                 echo 'Job complete in pipeline'
+            }
+        }
     }
-}
+
